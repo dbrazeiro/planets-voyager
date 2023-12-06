@@ -1,9 +1,9 @@
+import { CssBaseline, createTheme } from "@mui/material";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./routes";
 import { ThemeProvider } from "@emotion/react";
-import { CssBaseline, createTheme } from "@mui/material";
+import { router } from "./routes";
 
 const darkTheme = createTheme({
   palette: {

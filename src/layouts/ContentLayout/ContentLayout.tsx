@@ -1,6 +1,6 @@
 import { Alert, Box, CircularProgress, Stack, Typography } from "@mui/material";
-import { styles } from "./contentLayout.styles";
 import { Link } from "react-router-dom";
+import { styles } from "./contentLayout.styles";
 
 interface ContentLayoutProps {
   title: string;

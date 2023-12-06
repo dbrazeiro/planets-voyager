@@ -1,5 +1,5 @@
-import { config } from "../config";
 import useSWR, { SWRConfiguration } from "swr";
+import { config } from "../config";
 const { apiBasePath } = config;
 
 interface CustomError extends Error {
