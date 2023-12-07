@@ -4,18 +4,18 @@
 
 #### Said application gathers some amazing resources to make it possible, such as:
 
-- To mannage our packages: [yarn](https://yarnpkg.com/)
+- To manage our packages: [yarn](https://yarnpkg.com/)
 
 - The Design System: [MaterialUI](https://mui.com/material-ui/getting-started/),
 
-- This guy will help us to handle the data fetched: [SWR](https://swr.vercel.app/),
+- This guy will help Us to handle the data fetched: [SWR](https://swr.vercel.app/),
 
 - Our browser history: [react-router](https://reactrouter.com/en/main)
 
-- Clean code rules! So that's why this two will help us with it: [ESlint](https://eslint.org/),
+- Clean code rules! So that's why these two will help Us with it: [ESlint](https://eslint.org/),
   [EsLint Sonar](https://github.com/SonarSource/,eslint-plugin-sonarjs)
 
-### So lets get our hand dirty...
+### So let's get our hands dirty...
 
 To be able to install it locally, I recommend you to have [nvm CLI](https://github.com/nvm-sh/nvm) installed, so you can use the right Node version and be sure to run it as expected.
 
@@ -27,8 +27,8 @@ Firstly, you need to clone the project.
 git clone https://github.com/dbrazeiro/planets-voyager.git
 ```
 
-Due to the .nvmrc file located at the root folder, We can run the following command. It'll do its job by setting the Node version to the right one.
-In Case you don't want to use `nvm`, please make sure to install the one 👉 `v18.18.2`
+Due to the `.nvmrc` file located at the root folder, We can run the following command. It'll do its job by setting the Node version to the right one.
+In Case you don't want to use `nvm`, please make sure to install this one 👉 `v18.18.2`
 
 ```sh
 nvm use
@@ -57,7 +57,7 @@ The defult url:port used by `Vite` is http://localhost:5173/.
 
 ---
 
-To understand the rest of the commands listed in out package.json and more, We encourage you to visit [Vite](https://vitejs.dev/).
+To understand the rest of the commands listed in our package.json and more, We encourage you to visit [Vite](https://vitejs.dev/).
 
 ---
 
@@ -75,16 +75,16 @@ Which are the potential side-effects in any function? Could you point out any of
 
 ## 1.
 
-Closures refers to the variables behavior reltated to scopes.
-Any function can access to a variable from outside of its scope such us `window` object, otherwise, its variables can't be accessed from outside, so that's why it's called `closure`. So in fact, any function located into a higher order function is an example of closure.
+Closures refers to the variables behavior related to scopes.
+Any function can access to a variable from outside of its scope such as `window` object, however, its variables can't be accessed from the outside, so that's why it's called `closure`. So in fact, any function located into a higher order function is an example of closure.
 
 ---
 
 ## 2.
 
-Side effects are considered a result that wasn't expected while working on certain task.
-This is what an `impure` function would do, this kind of functions can't control either some of its variables or retuned values.
-To avoid this behavior `pure` functions comes in.
+Side effects are considered a result that wasn't expected while working on a certain task.
+This is what an `impure` function would do, this kind of functions can't control some of its variables nor the returned values.
+To avoid this behavior `pure` functions comes into play.
 
 ### Examples:
 
@@ -110,7 +110,7 @@ Because it's getting two variables from outside of its scope, such as `planets.c
 ```
 
 Why is it `pure`?
-It's receiving its values from its own params, so the result will be allways the same if the params remians the same.
+It's receiving its values from its own params, so the result will always be the same if the params remians the same.
 
 Not always an `impure` function is unwanted as detailed in the previous examples, but sometimes you don't want to change the value of an object from outside of your scope like the following.
 
