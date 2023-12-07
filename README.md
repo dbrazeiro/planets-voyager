@@ -24,7 +24,7 @@ To be able to install it locally, I recommend you to have [nvm CLI](https://gith
 Firstly, you need to clone the project.
 
 ```sh
-git clone .....
+git clone https://github.com/dbrazeiro/planets-voyager.git
 ```
 
 Due to the .nvmrc file located at the root folder, We can run the following command. It'll do its job by setting the Node version to the right one.
